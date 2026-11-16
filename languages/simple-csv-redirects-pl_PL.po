@@ -1,0 +1,132 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple CSV Redirects 1.1.0\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Add one redirect"
+msgstr "Dodaj jedno przekierowanie"
+
+msgid "Choose a CSV file first."
+msgstr "Najpierw wybierz plik CSV."
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Delete all selected redirects?"
+msgstr "Usunąć wszystkie zaznaczone przekierowania?"
+
+msgid "Delete selected"
+msgstr "Usuń zaznaczone"
+
+msgid "Delete this redirect?"
+msgstr "Usunąć to przekierowanie?"
+
+#, php-format
+msgid "Deleted redirects: %d."
+msgstr "Usunięte przekierowania: %d."
+
+msgid "Drop a CSV file here or click to choose"
+msgstr "Przeciągnij tu plik CSV albo kliknij, żeby wybrać"
+
+msgid "Export CSV"
+msgstr "Eksportuj CSV"
+
+msgid "Import"
+msgstr "Importuj"
+
+#, php-format
+msgid "Import finished. Added or updated: %1$d, skipped: %2$d."
+msgstr "Import zakończony. Dodane lub zmienione: %1$d, pominięte: %2$d."
+
+msgid "Import from CSV"
+msgstr "Import z pliku CSV"
+
+msgid "Last visit"
+msgstr "Ostatnie wejście"
+
+msgid "Never used"
+msgstr "Nigdy nieużyte"
+
+msgid "New URL"
+msgstr "Nowy adres"
+
+msgid "No redirects were selected."
+msgstr "Nie zaznaczono żadnego przekierowania."
+
+msgid "No redirects yet. Import a CSV file or add one above."
+msgstr ""
+"Nie ma jeszcze przekierowań. Zaimportuj plik CSV albo dodaj jedno powyżej."
+
+msgid ""
+"Not saved. Check both addresses: the new one must start with http://, "
+"https:// or /."
+msgstr ""
+"Nie zapisano. Sprawdź oba adresy: nowy musi zaczynać się od http://, "
+"https:// albo /."
+
+msgid "Nothing found for this search."
+msgstr "Nic nie znaleziono."
+
+msgid "Old URL or path"
+msgstr "Stary adres lub ścieżka"
+
+msgid "Old path"
+msgstr "Stara ścieżka"
+
+msgid "Open the old address to test"
+msgstr "Otwórz stary adres, żeby sprawdzić"
+
+msgid "Redirect saved."
+msgstr "Przekierowanie zapisane."
+
+msgid "Redirects"
+msgstr "Przekierowania"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Saved redirects"
+msgstr "Zapisane przekierowania"
+
+msgid "Search"
+msgstr "Szukaj"
+
+msgid "Search addresses"
+msgstr "Szukaj adresów"
+
+#, php-format
+msgid "Shown: %1$d of %2$d"
+msgstr "Pokazano: %1$d z %2$d"
+
+msgid ""
+"Two columns: old URL, new URL. Comma or semicolon. Rows that are not valid "
+"are skipped, existing paths get the new address."
+msgstr ""
+"Dwie kolumny: stary adres, nowy adres. Przecinek albo średnik. Błędne "
+"wiersze są pomijane, a istniejące ścieżki dostają nowy adres."
+
+msgid "Visits"
+msgstr "Wejścia"
+
+msgid "Visits redirected"
+msgstr "Przekierowane wejścia"
+
+msgid "You are not allowed to do this."
+msgstr "Nie masz uprawnień do tej operacji."
+
+msgid "external"
+msgstr "zewnętrzny"
+
+msgid "never"
+msgstr "nigdy"
+
+msgid ""
+"301 redirects imported from a CSV file (old URL, new URL) or added by hand."
+msgstr ""
+"Przekierowania 301 importowane z pliku CSV (stary adres, nowy adres) albo "
+"dodawane ręcznie."

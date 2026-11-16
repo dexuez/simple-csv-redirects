@@ -1,0 +1,125 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple CSV Redirects 1.1.0\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Add one redirect"
+msgstr ""
+
+msgid "Choose a CSV file first."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete all selected redirects?"
+msgstr ""
+
+msgid "Delete selected"
+msgstr ""
+
+msgid "Delete this redirect?"
+msgstr ""
+
+#, php-format
+msgid "Deleted redirects: %d."
+msgstr ""
+
+msgid "Drop a CSV file here or click to choose"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+#, php-format
+msgid "Import finished. Added or updated: %1$d, skipped: %2$d."
+msgstr ""
+
+msgid "Import from CSV"
+msgstr ""
+
+msgid "Last visit"
+msgstr ""
+
+msgid "Never used"
+msgstr ""
+
+msgid "New URL"
+msgstr ""
+
+msgid "No redirects were selected."
+msgstr ""
+
+msgid "No redirects yet. Import a CSV file or add one above."
+msgstr ""
+
+msgid ""
+"Not saved. Check both addresses: the new one must start with http://, "
+"https:// or /."
+msgstr ""
+
+msgid "Nothing found for this search."
+msgstr ""
+
+msgid "Old URL or path"
+msgstr ""
+
+msgid "Old path"
+msgstr ""
+
+msgid "Open the old address to test"
+msgstr ""
+
+msgid "Redirect saved."
+msgstr ""
+
+msgid "Redirects"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Saved redirects"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search addresses"
+msgstr ""
+
+#, php-format
+msgid "Shown: %1$d of %2$d"
+msgstr ""
+
+msgid ""
+"Two columns: old URL, new URL. Comma or semicolon. Rows that are not valid "
+"are skipped, existing paths get the new address."
+msgstr ""
+
+msgid "Visits"
+msgstr ""
+
+msgid "Visits redirected"
+msgstr ""
+
+msgid "You are not allowed to do this."
+msgstr ""
+
+msgid "external"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid ""
+"301 redirects imported from a CSV file (old URL, new URL) or added by hand."
+msgstr ""

@@ -1,0 +1,15 @@
+$blue: #2271b1;
+$blue-light: #f0f6fc;
+$text-muted: #646970;
+$border: #dcdcde;
+$danger: #b32d2e;
+$danger-hover: #8a2424;
+$radius: 6px;
+$gap: 20px;
+
+@mixin card {
+    background: #fff;
+    border: 1px solid $border;
+    border-radius: $radius;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}

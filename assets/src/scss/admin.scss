@@ -1,0 +1,249 @@
+@use "variables" as *;
+
+.scr {
+    .scr-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+
+        h1 {
+            padding-right: 0;
+        }
+    }
+
+    .scr-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: $gap;
+        margin: $gap 0;
+    }
+
+    .scr-stat {
+        @include card;
+        padding: 14px $gap;
+
+        &-num {
+            display: block;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 1.2;
+            color: $blue;
+        }
+
+        &-label {
+            color: $text-muted;
+        }
+    }
+
+    .scr-boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: $gap;
+        margin-bottom: 30px;
+    }
+
+    .scr-box {
+        @include card;
+        padding: 4px $gap $gap;
+
+        h2 {
+            margin: 16px 0 6px;
+        }
+
+        .description {
+            margin-bottom: 14px;
+        }
+    }
+
+    .scr-drop {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        padding: 22px 12px;
+        margin-bottom: 14px;
+        border: 2px dashed $border;
+        border-radius: $radius;
+        color: $text-muted;
+        text-align: center;
+        cursor: pointer;
+        transition: border-color 0.15s, background 0.15s;
+
+        // the real input covers the whole area, so drag and drop works without extra code
+        input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .dashicons {
+            font-size: 28px;
+            width: 28px;
+            height: 28px;
+        }
+
+        &:hover,
+        &.is-over {
+            border-color: $blue;
+            background: $blue-light;
+        }
+
+        &.has-file {
+            border-style: solid;
+            border-color: $blue;
+            color: $blue;
+            font-weight: 600;
+        }
+    }
+
+    .scr-field {
+        display: block;
+        margin-bottom: 12px;
+        font-weight: 600;
+
+        input {
+            display: block;
+            width: 100%;
+            margin-top: 4px;
+            font-weight: normal;
+        }
+    }
+
+    .scr-list-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 10px;
+
+        h2 {
+            margin: 0;
+        }
+    }
+
+    .scr-search {
+        display: flex;
+        gap: 6px;
+    }
+
+    .scr-table {
+        border-radius: $radius;
+
+        td,
+        th {
+            vertical-align: middle;
+        }
+
+        tbody tr:hover {
+            background: $blue-light;
+        }
+
+        code {
+            background: #f6f7f7;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    }
+
+    .scr-test {
+        text-decoration: none;
+        color: $text-muted;
+
+        &:hover {
+            color: $blue;
+        }
+
+        .dashicons {
+            font-size: 16px;
+            width: 16px;
+            height: 16px;
+            vertical-align: text-bottom;
+        }
+    }
+
+    .scr-arrow {
+        color: $text-muted;
+        margin-right: 4px;
+    }
+
+    .scr-badge {
+        display: inline-block;
+        margin-left: 6px;
+        padding: 0 7px;
+        border-radius: 10px;
+        background: #fcf0e3;
+        color: #8a4b0f;
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .scr-num {
+        text-align: right;
+        width: 70px;
+    }
+
+    .scr-date {
+        white-space: nowrap;
+        width: 150px;
+    }
+
+    .scr-muted {
+        color: $text-muted;
+    }
+
+    .scr-actions {
+        text-align: right;
+        width: 70px;
+    }
+
+    .scr-delete {
+        color: $danger;
+
+        &:hover {
+            color: $danger-hover;
+        }
+    }
+
+    .scr-empty {
+        padding: 30px;
+        text-align: center;
+        color: $text-muted;
+
+        .dashicons {
+            display: block;
+            margin: 0 auto 6px;
+        }
+    }
+
+    .scr-footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+
+        .page-numbers {
+            padding: 4px 9px;
+            border: 1px solid $border;
+            border-radius: 3px;
+            text-decoration: none;
+
+            &.current {
+                background: $blue;
+                border-color: $blue;
+                color: #fff;
+            }
+        }
+    }
+
+    @media (max-width: 782px) {
+        .scr-date,
+        .scr-num {
+            display: none;
+        }
+    }
+}
